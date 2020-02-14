@@ -1,0 +1,5 @@
+C:\myData\CsharpExp-Dev\hackatonUI\hackaton\bin\Debug\hackaton.exe.config
+C:\myData\CsharpExp-Dev\hackatonUI\hackaton\bin\Debug\hackaton.exe
+C:\myData\CsharpExp-Dev\hackatonUI\hackaton\bin\Debug\hackaton.pdb
+C:\myData\CsharpExp-Dev\hackatonUI\hackaton\obj\Debug\hackaton.exe
+C:\myData\CsharpExp-Dev\hackatonUI\hackaton\obj\Debug\hackaton.pdb

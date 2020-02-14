@@ -1,0 +1,32 @@
+﻿<Window x:Class="hackatonUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hackatonUI"
+        mc:Ignorable="d"
+        Title="Seafood Trackhackon Cologne 2019" Height="500" Width="800" Loaded="Window_Loaded" FontSize="14" Icon="icon.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="138*"/>
+            <RowDefinition Height="120"/>
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="2" BorderBrush="Black" Margin="4">
+            <Grid>
+            <Label x:Name="label" Content="Sanitized Fish" HorizontalAlignment="Left" FontSize="32" FontWeight="Bold" Margin="10" VerticalAlignment="Center"/>
+            <Image Source="our_logo.png"  HorizontalAlignment="Right"></Image>
+            </Grid>
+        </Border>
+        
+        <ContentControl x:Name="contentPresenter" Grid.Row="1" >
+
+        </ContentControl>
+        <Button x:Name="btnLeft" Content="Button Left" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom"  Grid.Row="2" Click="btnLeft_Click" />
+        <Button x:Name="btnRightUp" Content="Button Right Up" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top"  Grid.Row="2" Click="btnRightUp_Click"/>
+        <Button x:Name="btnRightDown" Content="Button Right Down" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom"  Grid.Row="2" Click="btnRightDown_Click" />
+        <Button x:Name="btnDebug"  Visibility="Hidden" Content="Upload" HorizontalAlignment="Left" Margin="316,0,0,10" VerticalAlignment="Bottom"  Grid.Row="2" Click="btnDebug_Click"  />
+
+    </Grid>
+</Window>
